@@ -16,7 +16,7 @@ const Parent = () => {
             <h1>Parent</h1>
             <button onClick={clickMe}>Click me to update child app</button>
             <br/><br/>
-            <iframe id={'iframeId'} src="https://thinugigs-iframe-test-same-origin.web.app/child"/>
+            <iframe id={'iframeId'} src="http://localhost:3000/child"/>
             <br/><br/>
             <div id={'divParent'}></div>
         </div>
